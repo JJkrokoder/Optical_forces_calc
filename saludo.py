@@ -1,1 +1,0 @@
-print("¡Hola! Espero que tengas un excelente día.")
