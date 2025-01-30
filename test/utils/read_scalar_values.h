@@ -21,7 +21,7 @@ inline std::vector<double> readScalarValues(const std::string& filename) {
     int index;
 
     if (!file.is_open()) {
-        throw std::runtime_error("No se pudo abrir el archivo de escalares");
+        throw std::runtime_error("Could not open scalar file");
     }
 
     // Saltar líneas de comentarios
