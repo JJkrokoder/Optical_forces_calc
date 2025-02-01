@@ -25,7 +25,7 @@ void readParameters(
 
 int main(int argc, char* argv[]) {
     if (argc != 2) {
-        std::cerr << "Uso: " << argv[0] << " <archivo_configuracion>" << std::endl;
+        std::cerr << "Use: " << argv[0] << " <configuration file>" << std::endl;
         return 1;
     }
 
@@ -50,8 +50,9 @@ int main(int argc, char* argv[]) {
         std::vector<double> permittivity_values = readScalarValues(permittivity_file);
 
         // Archivo para guardar resultados
-        std::ofstream outfile("../results/forces_vs_permittivity.txt");
-        outfile << "# Permitividad | Partícula | Fx | Fy | Fz\n";
+        std::string output_file = "../results/forces_vs_permittivity.txt";
+        std::ofstream outfile(output_file);
+        outfile << "# Permittivity | Particle | Fx | Fy | Fz\n";
 
         // Vector para almacenar fuerzas
         std::vector<double> forces(num_particles * dimensions);
@@ -77,7 +78,7 @@ int main(int argc, char* argv[]) {
             outfile << "\n"; // Separador entre conjuntos de datos
         }
 
-        std::cout << "Cálculo completado. Resultados guardados en forces_vs_permittivity.txt\n";
+        std::cout << "Calculation complete. Results saved in forces_vs_permittivity.txt\n";
         
     } catch (const std::exception& e) {
         std::cerr << "Error: " << e.what() << std::endl;
@@ -99,7 +100,7 @@ void readParameters(
     std::string line;
 
     if (!file.is_open()) {
-        throw std::runtime_error("No se pudo abrir el archivo de configuración");
+        throw std::runtime_error("Could not open configuration file");
     }
 
     while (std::getline(file, line)) {
