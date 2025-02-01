@@ -1,6 +1,6 @@
 /**
  * @file test_permittivity_sweep.cpp
- * @brief Test para calcular fuerzas ópticas con diferentes permitividades
+ * @brief Test to calculate optical forces with different permittivities
  */
 
 #include "../../src/core/optical_forces_calc_DA.h"
@@ -13,7 +13,7 @@
 #include <string>
 #include <sstream>
 
-// Función para leer parámetros del archivo de configuración
+// Function to read parameters from configuration file
 void readParameters(
     const std::string&,
     int&,
@@ -29,14 +29,14 @@ int main(int argc, char* argv[]) {
         return 1;
     }
 
-    // Variables para almacenar parámetros
+    // Variables to store parameters
     int num_particles, dimensions;
     std::string permittivity_file;
     std::vector<std::complex<double>> dipole_moments;
     std::vector<std::complex<double>> field_gradients;
 
     try {
-        // Leer parámetros del archivo de configuración
+        // Read parameters from configuration file
         readParameters(
             argv[1],
             num_particles,
@@ -46,18 +46,18 @@ int main(int argc, char* argv[]) {
             field_gradients
         );
 
-        // Leer valores de permitividad
+        // Read permittivity values
         std::vector<double> permittivity_values = readScalarValues(permittivity_file);
 
-        // Archivo para guardar resultados
+        // File to save results
         std::string output_file = "../results/forces_vs_permittivity.txt";
         std::ofstream outfile(output_file);
         outfile << "# Permittivity | Particle | Fx | Fy | Fz\n";
 
-        // Vector para almacenar fuerzas
+        // Vector to store forces
         std::vector<double> forces(num_particles * dimensions);
 
-        // Calcular fuerzas para cada valor de permitividad
+        // Calculate forces for each permittivity value
         for (double epsilon_m : permittivity_values) {
             calculateOpticalForces(
                 dipole_moments,
@@ -68,14 +68,14 @@ int main(int argc, char* argv[]) {
                 forces
             );
 
-            // Guardar resultados
+            // Save results
             for (int i = 0; i < num_particles; i++) {
                 outfile << epsilon_m << "\t" << i << "\t"
                        << forces[i * dimensions] << "\t"
                        << forces[i * dimensions + 1] << "\t"
                        << forces[i * dimensions + 2] << "\n";
             }
-            outfile << "\n"; // Separador entre conjuntos de datos
+            outfile << "\n";
         }
 
         std::cout << "Calculation complete. Results saved in forces_vs_permittivity.txt\n";
