@@ -1,4 +1,4 @@
-# Permitividad | Partícula | Fx | Fy | Fz
+# Permittivity | Particle | Fx | Fy | Fz
 1.47368	0	294.737	0	0
 1.47368	1	147.368	0	0
 1.47368	2	0	0	0
