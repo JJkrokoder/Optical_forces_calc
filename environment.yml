@@ -1,0 +1,8 @@
+name: OFC_env
+channels:
+  - defaults
+dependencies:
+  - python
+  - numpy
+  - matplotlib
+  - scipy
