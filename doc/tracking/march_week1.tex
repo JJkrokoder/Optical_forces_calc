@@ -1,0 +1,64 @@
+% This is a file that contains the tracking of the activities related to the project during the first week of March 2025.
+% The activities are divided into groups and a summary of the progress is provided.
+
+\documentclass{article}
+
+\usepackage{graphicx}
+\usepackage{dirtree}
+
+\begin{document}
+\author{Joan Ronquillo}
+
+\title{Project Progress - Week 1 of March 2025}
+\maketitle
+
+This is a file that contains the tracking of the activities related to the OFC project during the first week of March 2025.
+The activities are divided into groups and a summary of the progress is provided.
+
+\section{Initial Status of the Project}
+The project has made significant progress up until the first week of March 2025. The key achievements include:
+
+\begin{itemize}
+    \item Successful implementation and validation of the optical force calculation function in the dipole approximation.
+    \item Development of test and validation scripts that confirm the correct dependence on the permittivity.
+    \item Advancement in the theoretical documentation, particularly in the section on polarizability.
+    \item Detailed derivation of the quasiestatic polarizability formula for a dielectric sphere.
+\end{itemize}
+
+\section{Potential Tasks for the Week}
+The following tasks have been identified as potential areas of focus for the first week of March 2025:
+\begin{itemize}
+    \item Optimize the functions for querying the refractiveindex.info database.
+    \item Complete the integration of permittivities into an specific equation.
+    \item Finish documenting and providing examples of usage.
+\end{itemize}
+
+\section{Week Tracking}
+\subsection{Monday - March 3, 2025}
+The repository structure has been fixed and the management of Python modules has been addressed.
+Additionally, I have been learning how to compile LaTeX projects located inside the repository.
+This document serves as an example of the compilation process.
+
+\subsection{Tuesday - March 4, 2025}
+The tasks for the week have been specified and the progress in documentation, code, and testing has been tracked.
+We are going to focus on the algorithm used to obtain the polarizability of the particles. In the "dipole momenta" branch,
+a first version of ".h" and ".cpp" files has been created as a first approach to modular development of the functionalities.
+I have encountered some issues with warnings and errors flagged by the editor in VSCode. While the code works properly, the editor
+flags some issues that are not real. It may be related to the editor's settings or installation.
+Apart from this, it has been observed that a CMakefile must be created, an include directory must be added,
+and we need to explore how to include different functions without having to import multiple files.
+
+\section{Current Next Steps}
+The next steps for the project include:
+\begin{itemize}
+    \item Refactor the code to improve modularity and readability.
+    \item Docstring the first module and provide examples of usage.
+    \item Create a template for the electric field evaluation.
+    \item Implement the refractive index querying functions.
+    \item Integrate the permittivities into the optical force calculation.
+    \item Continue documenting the theoretical background and the code.
+
+\end{itemize}
+\end{document}
+
+
