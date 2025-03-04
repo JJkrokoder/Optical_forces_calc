@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1741091834.93339 "/home/joan/PhD_Joan/Optical_Forces_calc/doc/march_week1.tex" "march_week1.pdf" "march_week1" 1741091835.22644 0
-  "/home/joan/PhD_Joan/Optical_Forces_calc/doc/march_week1.tex" 1741091834.09511 2113 bf397fc4d502fe97005557054fb02896 ""
+["pdflatex"] 1741092456.23986 "/home/joan/PhD_Joan/Optical_Forces_calc/doc/march_week1.tex" "march_week1.pdf" "march_week1" 1741092456.53163 0
+  "/home/joan/PhD_Joan/Optical_Forces_calc/doc/march_week1.tex" 1741092455.62631 2084 7f76b9b4052a714c2f240bd1cccd2d0d ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -21,6 +21,8 @@
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1248133631 32362 179c33bbf43f19adbb3825bb4e36e57a ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb" 1215737283 138258 6525c253f16cededa14c7fd0da7f67b2 ""
   "/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1721433600 71627 94eb9990bed73c364d7f53f960cc8c5b ""
+  "/usr/share/texlive/texmf-dist/tex/generic/dirtree/dirtree.sty" 1355443861 1883 4aee9c0e00b4a0c2729c07aa1ea41bad ""
+  "/usr/share/texlive/texmf-dist/tex/generic/dirtree/dirtree.tex" 1355443861 5890 e9acda8da77544e04e1e6041a77a14c7 ""
   "/usr/share/texlive/texmf-dist/tex/latex/base/article.cls" 1721433600 20144 d5ecf0a5140c8d8d8b72cbe86e320eff ""
   "/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo" 1721433600 8448 c33a4e1cb35cee9b33c2b21033b73e39 ""
   "/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1579991033 13886 d1306dcf79a944f6988e688c1785f9ce ""
@@ -35,8 +37,8 @@
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1721433600 40900 887e0dc8cac988a9e9c574af364cf837 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1741004025.99126 4602016 72a039a3c4aea0fa25b5d35d65138f54 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1741003649 7753797 955cc11cf0ccd2736a64e16259fee1fe ""
-  "march_week1.aux" 1741091835.19509 481 1eb209ec162d0f3bb2f6b83059589471 "pdflatex"
-  "march_week1.tex" 1741091834.09511 2113 bf397fc4d502fe97005557054fb02896 ""
+  "march_week1.aux" 1741092456.4973 597 b557662232635911485997bca3c72f48 "pdflatex"
+  "march_week1.tex" 1741092455.62631 2084 7f76b9b4052a714c2f240bd1cccd2d0d ""
   (generated)
   "march_week1.aux"
   "march_week1.log"
