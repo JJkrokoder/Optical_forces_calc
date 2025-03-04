@@ -1,8 +1,8 @@
-PWD /home/joan/PhD_Joan/Optical_Forces_calc/doc
+PWD /home/joan/PhD_Joan/Optical_Forces_calc/doc/tracking
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/joan/PhD_Joan/Optical_Forces_calc/doc/march_week1.tex
+INPUT /home/joan/PhD_Joan/Optical_Forces_calc/doc/tracking/march_week1.tex
 OUTPUT march_week1.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls

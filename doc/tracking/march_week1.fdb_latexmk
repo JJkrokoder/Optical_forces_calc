@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1741089683.06348 "/home/joan/PhD_Joan/Optical_Forces_calc/doc/march_week1.tex" "march_week1.pdf" "march_week1" 1741089683.33844 0
-  "/home/joan/PhD_Joan/Optical_Forces_calc/doc/march_week1.tex" 1741089682.28816 1072 c0fe31e760800c4fc3db3f00afc669ce ""
+["pdflatex"] 1741092870.02447 "/home/joan/PhD_Joan/Optical_Forces_calc/doc/tracking/march_week1.tex" "march_week1.pdf" "march_week1" 1741092870.28924 0
+  "/home/joan/PhD_Joan/Optical_Forces_calc/doc/tracking/march_week1.tex" 1741092869.48015 1072 c0fe31e760800c4fc3db3f00afc669ce ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -23,8 +23,8 @@
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1721433600 40900 887e0dc8cac988a9e9c574af364cf837 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1741004025.99126 4602016 72a039a3c4aea0fa25b5d35d65138f54 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1741003649 7753797 955cc11cf0ccd2736a64e16259fee1fe ""
-  "march_week1.aux" 1741089683.30815 243 109fa26f0cdc3065a9e4cfae341b7ef7 "pdflatex"
-  "march_week1.tex" 1741089682.28816 1072 c0fe31e760800c4fc3db3f00afc669ce ""
+  "march_week1.aux" 1741092870.26314 243 109fa26f0cdc3065a9e4cfae341b7ef7 "pdflatex"
+  "march_week1.tex" 1741092869.48015 1072 c0fe31e760800c4fc3db3f00afc669ce ""
   (generated)
   "march_week1.aux"
   "march_week1.log"
