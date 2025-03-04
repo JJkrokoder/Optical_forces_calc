@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1741103183.13171 "/home/joan/PhD_Joan/Optical_Forces_calc/doc/tracking/march_week1.tex" "march_week1.pdf" "march_week1" 1741103183.41964 0
-  "/home/joan/PhD_Joan/Optical_Forces_calc/doc/tracking/march_week1.tex" 1741103182.81273 2177 5a4aa2629ce9d23ed3f1c51ac7cf2b23 ""
+["pdflatex"] 1741108040.35705 "/home/joan/PhD_Joan/Optical_Forces_calc/doc/tracking/march_week1.tex" "march_week1.pdf" "march_week1" 1741108040.63004 0
+  "/home/joan/PhD_Joan/Optical_Forces_calc/doc/tracking/march_week1.tex" 1741108040.00338 3272 54b9e7c4ca824156b8bcf578c2bba756 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -37,8 +37,8 @@
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1721433600 40900 887e0dc8cac988a9e9c574af364cf837 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1741004025.99126 4602016 72a039a3c4aea0fa25b5d35d65138f54 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1741003649 7753797 955cc11cf0ccd2736a64e16259fee1fe ""
-  "march_week1.aux" 1741103183.38372 597 b557662232635911485997bca3c72f48 "pdflatex"
-  "march_week1.tex" 1741103182.81273 2177 5a4aa2629ce9d23ed3f1c51ac7cf2b23 ""
+  "march_week1.aux" 1741108040.59537 703 0780ffea203b5bffa872e65e58c87874 "pdflatex"
+  "march_week1.tex" 1741108040.00338 3272 54b9e7c4ca824156b8bcf578c2bba756 ""
   (generated)
   "march_week1.aux"
   "march_week1.log"

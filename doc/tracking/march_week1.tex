@@ -41,8 +41,24 @@ This document serves as an example of the compilation process.
 
 \subsection{Tuesday - March 4, 2025}
 The tasks for the week have been specified and the progress in documentation, code, and testing has been tracked.
-We are going to focus on the algorithm use for obtaining the polarizability of the particles.
+We are going to focus on the algorithm used to obtain the polarizability of the particles. In the "dipole momenta" branch,
+a first version of ".h" and ".cpp" files has been created as a first approach to modular development of the functionalities.
+I have encountered some issues with warnings and errors flagged by the editor in VSCode. While the code works properly, the editor
+flags some issues that are not real. It may be related to the editor's settings or installation.
+Apart from this, it has been observed that a CMakefile must be created, an include directory must be added,
+and we need to explore how to include different functions without having to import multiple files.
 
+\section{Current Next Steps}
+The next steps for the project include:
+\begin{itemize}
+    \item Refactor the code to improve modularity and readability.
+    \item Docstring the first module and provide examples of usage.
+    \item Create a template for the electric field evaluation.
+    \item Implement the refractive index querying functions.
+    \item Integrate the permittivities into the optical force calculation.
+    \item Continue documenting the theoretical background and the code.
+
+\end{itemize}
 \end{document}
 
 
