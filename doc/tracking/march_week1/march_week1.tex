@@ -5,6 +5,11 @@
 
 \usepackage{graphicx}
 \usepackage{dirtree}
+\usepackage[backend=biber,style=numeric]{biblatex}
+
+\newcommand{\apj}{The Astrophysical Journal}
+
+\addbibresource{references.bib}
 
 \begin{document}
 \author{Joan Ronquillo}
@@ -52,14 +57,12 @@ and we need to explore how to include different functions without having to impo
 The next steps for the project include:
 \begin{itemize}
     \item Development of a calculation method for Optical Forces given a polarizability, a field, and a field gradient.
-    \item Documentation of quasiestatic polarizability theory.
-    \item Refactor the code to improve modularity and readability.
-    \item Docstring the first module and provide examples of usage.
-    \item Implement the refractive index querying functions.
-    \item Integrate the permittivities into the optical force calculation.
-    \item Continue documenting the theoretical background and the code.
-
+    \item Understand radiative correction in polarizability. Check the paper \cite{Draine1988ApJ...333..848D}.
+    \item Documentation of quasiestatic polarizability theory. 
 \end{itemize}
+
+\printbibliography
+
 \end{document}
 
 
