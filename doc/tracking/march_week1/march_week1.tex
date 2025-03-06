@@ -4,7 +4,6 @@
 \documentclass{article}
 
 \usepackage{graphicx}
-\usepackage{dirtree}
 \usepackage[backend=biber,style=numeric]{biblatex}
 
 \newcommand{\apj}{The Astrophysical Journal}
@@ -53,9 +52,17 @@ flags some issues that are not real. It may be related to the editor's settings 
 Apart from this, it has been observed that a CMakefile must be created, an include directory must be added,
 and we need to explore how to include different functions without having to import multiple files.
 
+\subsection{Thursday - March 6, 2025}
+The reading of Draine's paper on radiative corrections in polarizability has been initiated.
+In addition, work has been done on including BibTeX references in LaTeX files.
+A references file has been created and included in the main file. In this regard,
+the directory structure of the tracking has been modified.
+A directory tree has been added to the document to visualize the structure of the tracking directory.
+
 \section{Current Next Steps}
 The next steps for the project include:
 \begin{itemize}
+    \item Explor de CMakefile, include directory, and modular development (Notion).
     \item Development of a calculation method for Optical Forces given a polarizability, a field, and a field gradient.
     \item Understand radiative correction in polarizability. Check the paper \cite{Draine1988ApJ...333..848D}.
     \item Documentation of quasiestatic polarizability theory. 
