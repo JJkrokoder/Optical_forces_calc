@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber march_week1"] 0 "march_week1.bcf" "march_week1.bbl" "march_week1" 1741596590.1057 -1
-  "march_week1.bcf" 1741596590.04898 107781 9039f92a52631cfa8b6b45b647299b57 "pdflatex"
+["biber march_week1"] 0 "march_week1.bcf" "march_week1.bbl" "march_week1" 1741609995.69272 -1
+  "march_week1.bcf" 1741609995.63657 107781 9039f92a52631cfa8b6b45b647299b57 "pdflatex"
   "references.bib" 1741277212.1588 756 1093b6e81db74437df8785fa11b2a54c ""
   (generated)
   "march_week1.bbl"
   "march_week1.blg"
   (rewritten before read)
-["pdflatex"] 1741596589.53284 "/home/joan/PhD_Joan/Optical_Forces_calc/doc/tracking/march_week1/march_week1.tex" "march_week1.pdf" "march_week1" 1741596590.10603 0
-  "/home/joan/PhD_Joan/Optical_Forces_calc/doc/tracking/march_week1/march_week1.tex" 1741596588.374 5619 e9333fa1423a37d6fcc44b9d9f421b45 ""
+["pdflatex"] 1741609995.09641 "/home/joan/PhD_Joan/Optical_Forces_calc/doc/tracking/march_week1/march_week1.tex" "march_week1.pdf" "march_week1" 1741609995.69305 0
+  "/home/joan/PhD_Joan/Optical_Forces_calc/doc/tracking/march_week1/march_week1.tex" 1741609993.96259 6044 f4c2bc155e432d5dbecdd330c42cf1d2 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -71,10 +71,10 @@
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1721433600 40900 887e0dc8cac988a9e9c574af364cf837 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1741004025.99126 4602016 72a039a3c4aea0fa25b5d35d65138f54 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1741003649 7753797 955cc11cf0ccd2736a64e16259fee1fe ""
-  "march_week1.aux" 1741596590.04798 1333 babcedc25506c9e9d25ef34ef49e2276 "pdflatex"
+  "march_week1.aux" 1741609995.63557 1333 ba79267eb26bcddd486ad20b6172d7cb "pdflatex"
   "march_week1.bbl" 1741283742.80317 2004 3033842072f9058815d1de9f11b70d71 "biber march_week1"
-  "march_week1.run.xml" 1741596590.04898 2354 f13e9a1c89c8e87f3c01a906c057fae7 "pdflatex"
-  "march_week1.tex" 1741596588.374 5619 e9333fa1423a37d6fcc44b9d9f421b45 ""
+  "march_week1.run.xml" 1741609995.63757 2354 f13e9a1c89c8e87f3c01a906c057fae7 "pdflatex"
+  "march_week1.tex" 1741609993.96259 6044 f4c2bc155e432d5dbecdd330c42cf1d2 ""
   (generated)
   "march_week1.aux"
   "march_week1.bcf"
