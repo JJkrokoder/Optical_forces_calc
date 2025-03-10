@@ -59,13 +59,38 @@ A references file has been created and included in the main file. In this regard
 the directory structure of the tracking has been modified.
 A directory tree has been added to the document to visualize the structure of the tracking directory.
 
+\subsection{Friday - March 7, 2025}
+The difficulties in implementing C++ modules have been discussed with Raúl.
+He advised me to use include structures, MakeFiles, and temporary build directories.
+As an example, he recommended me to review his class notes and the structure of his
+\path{cpp-template-project} repository. He also advised me to implement Python 
+interfaces that call the C++ code, which performs computationally expensive
+calculations. In the meeting with Rafa, the need to use the Discrete Dipole
+Approximation (DDA) for the calculation of optical forces for particles of size
+comparable to the wavelength has been discussed.
+
 \section{Current Next Steps}
 The next steps for the project include:
 \begin{itemize}
-    \item Explor de CMakefile, include directory, and modular development (Notion).
+    \item Exploration of CMakefile, include directory, and modular development (Notion).
+    \item Analysys of Raúl's \path{cpp-template-project} repository.
+    \item Check of Raúl's class notes.
     \item Development of a calculation method for Optical Forces given a polarizability, a field, and a field gradient.
     \item Understand radiative correction in polarizability. Check the paper \cite{Draine1988ApJ...333..848D}.
     \item Documentation of quasiestatic polarizability theory. 
+\end{itemize}
+
+\section{Final State of the Project}
+This week some milestones have been achieved:
+\begin{itemize}
+    \item The repository structure has been fixed.
+    \item The management of Python modules has been addressed.
+    \item The compilation of LaTeX projects located inside the repository has been learned.
+    \item A first version of ".h" and ".cpp" files has been created as a first approach to modular development of the functionalities.
+    \item The reading of Draine's paper on radiative corrections in polarizability has been initiated.
+    \item Work has been done on including BibTeX references in LaTeX files. This has stablished a good practice for future documentation and tracking structure.
+    \item The difficulties in implementing C++ modules have been discussed with Raúl. And intuition on how to proceed has been provided.
+    \item The need to use the Discrete Dipole Approximation (DDA) for the calculation of optical forces for particles of size comparable to the wavelength has been discussed.
 \end{itemize}
 
 \printbibliography
