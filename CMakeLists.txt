@@ -16,7 +16,7 @@ set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)     # Set the output
 
 # Add the subdirectories
 add_subdirectory(src)                   # Add the src directory
-#add_subdirectory(test)                  # Add the test directory
+add_subdirectory(test)                  # Add the test directory
 #add_subdirectory(doc)                   # Add the doc directory
 
 enable_testing()                        # Enable testing
