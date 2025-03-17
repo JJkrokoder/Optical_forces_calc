@@ -1,8 +1,13 @@
 name: OFC_env
 channels:
   - defaults
+  - conda-forge
 dependencies:
   - python
   - numpy
   - matplotlib
   - scipy
+  - cmake
+  - make
+  - ninja
+  - clangxx
