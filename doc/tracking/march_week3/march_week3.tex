@@ -1,0 +1,76 @@
+% This is a file that contains the tracking of the activities related to the project during the second week of March 2025.
+
+\documentclass[12pt]{article}
+
+\usepackage[a4paper, margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage[backend=biber,style=numeric]{biblatex}
+\usepackage[most]{tcolorbox}
+
+\addbibresource{references.bib}
+\newcommand{\apj}{The Astrophysical Journal}
+
+\begin{document}
+
+\author{Joan Ronquillo}
+
+\title{Project Progress - Week 3 of March 2025}
+\maketitle
+
+This is a file that contains the tracking of the activities related to the OFC project during the third week of March 2025.
+The activities are divided into groups and a summary of the progress is provided.
+
+\section{Initial Status of the Project}
+The project has made significant progress up until the third week of March 2025. The key achievements include:
+\begin{itemize}
+    \item The management of Python modules and compilation of LaTeX projects has been learned.
+    \item A first approach to C++ modular development of the functionalities has been initiated.
+    \item The reading of Draine's paper on radiative corrections in polarizability \cite{Draine1988ApJ...333..848D} has been initiated.
+    \item The difficulties in implementing C++ modules have been discussed with Raúl. And intuition on how to proceed has been provided.
+    \item The need to use the Discrete Dipole Approximation (DDA) for the calculation of optical forces for particles of size comparable to the wavelength has been discussed.
+\end{itemize}
+So far, the project is developing in some areas:
+
+\begin{itemize}
+    \item The development of the algorithm to obtain the polarizability of the particles.
+    \item The modular development, including makefile documentation and Raul's cpp repository and notes analysis.
+    \item The development of a calculation method for Optical Forces given a polarizability, a field, and a field gradient.
+\end{itemize}
+
+\section{Potential Tasks for the Week}
+The following tasks are proposed for the week of March 10th to March 15th, 2025:
+\begin{itemize}
+    \item Exploration of CMakefile, include directory, and modular development (Notion) 
+    \item Develop the algorithm to obtain the polarizability of the particles.
+    \item Implement the calculation method for Optical Forces given a polarizability, a field, and a field gradient.
+    \item Documentation of quasiestatic polarizability theory.
+    \item Continue reading Draine's paper on radiative corrections in polarizability \cite{Draine1988ApJ...333..848D}.
+    \item Analysys of Raúl's \path{cpp-template-project} repository.
+    \item Check of Raúl's class notes.
+    \item Discuss the progress and difficulties with Raúl.
+\end{itemize}
+
+\section{Week Progress}
+
+\subsection{Monday, March 17th, 2025}
+The tasks for the week have been defined and the progress
+of the project has been analyzed. CMakeFiles and include
+directories have been explored, creating an initial structure
+(it doesn't compile yet) and notion pages for registering
+information about the template project \path{cpp-template-project}.
+
+\section{Next Steps}
+The next steps for the project are:
+\begin{itemize}
+    \item Solve the compilation issues with the CMakeFiles.
+    \item Explore the CMake features in VSCode, and compilator debbuger issues.
+    \item Check of Raúl's class notes.
+    \item Continue reading Draine's paper on radiative corrections in polarizability \cite{Draine1988ApJ...333..848D}.
+    \item Continue with the development of the algorithm to obtain the polarizability of the particles.
+    \item Implement the calculation method for Optical Forces given a polarizability, a field, and a field gradient.
+    \item Documentation of quasiestatic polarizability theory.
+\end{itemize}
+
+\printbibliography
+
+\end{document}
