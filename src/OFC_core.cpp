@@ -1,4 +1,4 @@
-#include "core.h"
+#include "OFC_core.h"
 
 namespace OFC {
 
