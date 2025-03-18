@@ -1,4 +1,4 @@
-% This is a file that contains the tracking of the activities related to the project during the second week of March 2025.
+% This is a file that contains the tracking of the activities related to the project during the third week of March 2025.
 
 \documentclass[12pt]{article}
 
@@ -59,11 +59,23 @@ directories have been explored, creating an initial structure
 (it doesn't compile yet) and notion pages for registering
 information about the template project \path{cpp-template-project}.
 
+\subsection{Tuesday, March 18th, 2025}
+The compilation issues with the CMakeFiles have been solved
+and the environment dependencies had been installed. The
+first test for optical forces calculation function has been
+implemented and tested. The function is able to calculate
+the optical forces given a medium permittivity, a set of
+dipolar momenta and a set of electric field gradients.
+A library for dielectric coefficients has been created.
+In it, a class for permittivities has been defined. A method
+for gold particles testing has been implemented, but yet not
+tested correctly.
+
 \section{Next Steps}
 The next steps for the project are:
 \begin{itemize}
-    \item Solve the compilation issues with the CMakeFiles.
-    \item Explore the CMake features in VSCode, and compilator debbuger issues.
+    \item Check the wavelenght dependence of gold's permittivity.
+    \item Explore compilator debbuger issues in VSCode.
     \item Check of Raúl's class notes.
     \item Continue reading Draine's paper on radiative corrections in polarizability \cite{Draine1988ApJ...333..848D}.
     \item Continue with the development of the algorithm to obtain the polarizability of the particles.
