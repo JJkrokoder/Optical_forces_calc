@@ -18,3 +18,7 @@ add_executable(test_core test_core.cpp) # Compile a test source
 # Link against any required libraries. The library is compiled in src/
 target_link_libraries(test_core OFC_core)
 gtest_discover_tests(test_core)            # Register the tests to gtest
+
+add_executable(test_permittivity test_permittivity.cpp) # Compile a test source
+target_link_libraries(test_permittivity dielectric_optcoeff)
+gtest_discover_tests(test_permittivity)    # Register the tests to gtest
