@@ -1,9 +1,9 @@
 name: OFC_env
 channels:
-  - defaults
   - conda-forge
+  - defaults
 dependencies:
-  - python
+  - python=3.11
   - numpy
   - matplotlib
   - scipy
@@ -11,3 +11,9 @@ dependencies:
   - make
   - ninja
   - clangxx
+  - doxygen
+  - pip 
+  - pip:
+    - breathe
+    - sphinx
+
