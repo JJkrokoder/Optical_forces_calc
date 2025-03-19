@@ -23,7 +23,7 @@ namespace dioptco{
             double Ep = 9;
             double Et = 0.05;
 
-            return epsilon_b - (Ep * Ep / (E * E - i_im* E * Et));
+            return epsilon_b - (Ep * Ep / (E * E + i_im* E * Et));
         }
         else if (material == "silver"){
             return 2.0;

@@ -9,14 +9,21 @@ TEST(Permittivity, DefaultConstructor) {
     EXPECT_EQ(perm.material, "gold");
 }
 
-TEST(Permittivity, getPermittivity) {
+TEST(Permittivity, getgoldPermittivity) {
+
     Permittivity perm("gold");
-    // Obtain gold permittivity
-    std::complex<double> epsilon = perm.getPermittivity(1000);
+
+    double wavelength = 200;
+    double energy = 1239.842/wavelength;
+    double eb = 9;
+    double ep = 9;
+    double et = 0.05;
+
+    std::complex<double> epsilon = perm.getPermittivity(wavelength); 
     // Check real part
-    EXPECT_NEAR(epsilon.real(), 9.0, 1e-6);
+    EXPECT_NEAR(epsilon.real(), eb-ep*ep/(energy*energy+et*et), 1e-6);
     // Check imaginary part
-    EXPECT_NEAR(epsilon.imag(), 0.0, 1e-6);
+    EXPECT_NEAR(epsilon.imag(), ep*ep*et/(energy*energy+et*et)/energy, 1e-6);
 
 }
 
