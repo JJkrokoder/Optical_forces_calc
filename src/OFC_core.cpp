@@ -11,17 +11,6 @@ void calculateOpticalForces(
     int dimensions,                                          // Dimensions of the system
     std::vector<double>& forces_array                        // Array to store calculated forces
 ) {
-    // Check the size of the input vectors
-    if (dipole_moments.size() != static_cast<size_t>(num_particles * dimensions)) {
-        throw std::invalid_argument("The size of dipole_moments does not match num_particles * dimensions.");
-    }
-    if (field_gradients.size() != static_cast<size_t>(num_particles * dimensions * dimensions)) {
-        throw std::invalid_argument("The size of field_gradients does not match num_particles * dimensions * dimensions.");
-    }
-    // Check the size of the forces_array
-    if (forces_array.size() != static_cast<size_t>(num_particles * dimensions)) {
-        throw std::invalid_argument("The size of forces_array must be num_particles * dimensions.");
-    }
 
     // Initialize the forces_array to zero
     std::fill(forces_array.begin(), forces_array.end(), 0.0);
